@@ -55,6 +55,16 @@ button {
   font-size: 50px;
 }
 
+button:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
 .reset-btn {
   width: 10rem;
   height: auto;
