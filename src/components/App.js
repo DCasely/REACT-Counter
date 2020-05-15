@@ -3,8 +3,13 @@ import React, { useState } from 'react';
 export default function App() {
   const [count, setCount] = useState(0);
 
+  function randomize() {
+    const random = Math.floor(Math.random() * 100);
+    setCount(random);
+  }
+
   function decrease() {
-    return setCount(count - 1);
+    setCount(count - 1);
   }
   function increase() {
     setCount(count + 1);
@@ -18,6 +23,12 @@ export default function App() {
     <div className="container">
       <div className="row">
         <h1>REACT (useState Hook): Counter</h1>
+      </div>
+
+      <div className="row">
+        <button className="randomize-btn" onClick={randomize}>
+          RANDOMIZE
+        </button>
       </div>
 
       <div className="row">

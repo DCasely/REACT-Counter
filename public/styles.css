@@ -41,6 +41,13 @@ h1 {
   font-size: 3rem;
 }
 
+.randomize-btn {
+  width: auto;
+  height: auto;
+  font-size: 2rem;
+  border-radius: 5%;
+}
+
 button {
   display: inline-block;
   background-color: #000;
