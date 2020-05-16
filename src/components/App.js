@@ -11,6 +11,7 @@ export default function App() {
   function decrease() {
     setCount(count - 1);
   }
+
   function increase() {
     setCount(count + 1);
   }
