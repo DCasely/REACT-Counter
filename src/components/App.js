@@ -27,7 +27,7 @@ export default function App() {
 
       <div className="row">
         <button className="randomize-btn" onClick={randomize}>
-          RANDOMIZE
+          Randomize
         </button>
       </div>
 
@@ -41,7 +41,7 @@ export default function App() {
 
       <div className="row">
         <button className="reset-btn" onClick={reset}>
-          RESET
+          Reset
         </button>
       </div>
     </div>
